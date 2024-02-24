@@ -6,39 +6,64 @@
 /* HEADER */
 .contaier-header{
 	min-height: 80px;
-	background-color: #add8e6;
+	background-color: #255ee9;
 	display: flex;
 	justify-content: center;
 	flex-direction: reverse;
 }
-.section1{
+.first-logo{
 	height: 40px;
 	width: 20%;
-	background-color: #daa520 ;
-	border: 1px dashed black;
-}
-.section2{
-	height: 40px;
-	width: 40%;
-	background-color: #daa520 ;
-	border: 1px dashed black;
-	text-align: center;
+	background-image: url(../img/img/logo.svg);
+	background-repeat: no-repeat;
 	
 }
-.section3{
+ul  {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+	text-decoration: none;
+
+	
+}
+.link  {
+	height: 40px;
+	width: 40%;
+	background-color: #255ee9 ;
+	color: white;
+	text-decoration: none;
+	
+}
+.login {
 	height: 40px;
 	width: 20%;
-	background-color: #daa520 ;
-	border: 1px dashed black;
+	background-color: #255ee9 ;
 	text-align: end;
+	display: flex;
+	justify-content: end;
+	align-items: center;
+	
 }
+.content-accedi{
+	   padding: 5%;
+		width: 25%;
+		background-color: white;
+		border-radius: 45%;
+   	border: 0;
+   	
+		
+
+}
+
 /* /HEADER */
 
 /* MAIN */
 /* PRIMO BLOCCO */
 .parte-blue{
-	min-height: 400px;
-	background-color: #00008b;
+	height: 400px;
+	background-image: url(../img/img/jumbo.png);
+	background-size: 100%;
+	width: 100%;
 	display: flex;
 	justify-content: center;
 	
@@ -46,14 +71,33 @@
 .parte-viola{
 	min-height: 300px;
 	width: 40%;
-	background-color: #ee82ee;
+	
 	margin: 50px 0;
 	border: 1px dashed black;
 
+}
+.title{
+	text-align: center;
+	color: white;
+}
+
+.text-purple{
+	color: white;
+	margin-top: 15px;
+
+}
+.btn{
+	text-align: center;
+	padding: 20px;
+	margin: 25px;
+	border: 0;
+	
+	
+}
 /* /PRIMO BLOCCO */
 
 /* SECONDO BLOCCO */
-}
+
 .parte-bianca{
 	height: 300px;
 	background-color: white;
@@ -61,22 +105,77 @@
 	justify-content: center;
 	margin-top: 20px;
 }
-.parte-celeste{
+.parte-rosa1{
+	height: 300px;
+	width: 400px;
+}
+
+.item-text{
+	font-size: 50px;
+}
+
+.item-text2{
+	padding: 10px;
+
+}
+
+.parte-celeste1{
 	height: 300px;
 	width: 500px;
-	background-color: #1e90ff;
-	border: 1px dashed black;
+	background-image: url(../img/img/item1.svg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	
+}
+.title-rosa{
+	font-size: 50px;
+	color: #292841;
+}
+
 
 	/* /SECONDO BLOCCO */
 
 	/* TERZO BLOCCO */
-}
-.parte-rosa{
+.parte-rosa2{
 	height: 300px;
 	width: 400px;
-	background-color: #ffc0cb;
-	border: 1px dashed black;
 }
+
+.text-celeste{
+	font-size: 50px;
+	color: #292841;
+	text-align: center;
+}
+
+.parte-celeste2{
+	height: 300px;
+	width: 500px;
+	background-image: url(../img/img/item2.svg);
+	background-size: 100%;
+}
+
+.parte-celeste3{
+	height: 300px;
+	width: 500px;
+	background-image: url(../img/img/item3.svg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	
+}
+
+.parte-rosa3{
+	height: 300px;
+	width: 400px;
+
+}
+.title-rosa2{
+	font-size: 50px;
+	color: #292841;
+}
+.text-rosa2{
+	margin-top: 10px;
+}
+
 .parte-grigia{
 	height: 400px;
 	background-color: #d3d3d3;
@@ -89,46 +188,97 @@
 
 /* QUARTO BLOCCO */
 .bg-grey{
-	height: 500px;
+	height: 1000px;
 	background-color: #d3d3d3;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-direction: column;
 }
-.green-square{
-	height: 400px;
-	width: 800px;
-	background-color: #228b22;
-	border: 1px dashed black;
+.text-square{
+	height: 200px;
+	width: 600px;
+	
+	background-repeat: no-repeat;
+	
 }
 
-.bg-black{
-	height: 400px;
-	background-color: black;
+
+.title-green{
+	font-size: 50px;
+	text-align: center;
+}
+.img-grey{
+	width: 800px;
+	height: 500px;
+background-image: url(../img/img/item4-big.svg);
+background-size: 100%;
+
+}
+
+.img-stars{
+	width: 500px;
+	height: 300px;
+	background-image: url(../img//img/stars.svg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	
+
+}
+.content-stars{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin: 20px;
+	padding: 20px;
+	font-size: 30px;
+}
 
-}
-.meet-rosa{
-	height: 300px;
-	width: 200px;
-	background-color: #f08080;
-	border: 1px dashed black;
-}
-.acquamarine{
-	height: 300px;
-	width: 100px;
-	background-color: #20b2aa;
-	border: 1px dashed black;
-}
+
 /* /QUARTO BLOCCO */
 /* -/MAIN */
 
 /* FOOTER */
 
 /* QUINTO BLOCCO */
+.bg-black{
+	height: 400px;
+	background-color: #23272a;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	
 
+}
+.meet-rosa{
+	height: 300px;
+	width: 200px;
+	font-size: 30px;
+	color: #7289d9;
+	background-repeat: no-repeat;
+	border: 1px dashed black;
+}
+.bandiera-italiana{
+	width: 24px;
+}
+.logo-text{
+	font-size: 14px;
+	color: white;
+}
+.logo-social-network{
+	height: 10px;
+
+	color: white;
+}
+
+.acquamarine1 {
+	height: 300px;
+	width: 100px;
+	background-color: #20b2aa;
+	border: 1px dashed black;
+
+}
 /* QUINTO BLOCCO */
 
 /*/FOOTER */

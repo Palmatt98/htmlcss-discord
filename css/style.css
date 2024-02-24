@@ -18,7 +18,7 @@
 	background-repeat: no-repeat;
 	
 }
-ul  {
+.first-list {
 	list-style-type: none;
 	display: flex;
 	justify-content: space-between;
@@ -242,7 +242,7 @@ background-size: 100%;
 
 /* QUINTO BLOCCO */
 .bg-black{
-	height: 400px;
+	height: 500px;
 	background-color: #23272a;
 	display: flex;
 	justify-content: center;
@@ -257,7 +257,7 @@ background-size: 100%;
 	font-size: 30px;
 	color: #7289d9;
 	background-repeat: no-repeat;
-	border: 1px dashed black;
+
 }
 .bandiera-italiana{
 	width: 24px;
@@ -268,17 +268,28 @@ background-size: 100%;
 }
 .logo-social-network{
 	height: 10px;
-
+	
 	color: white;
 }
 
-.acquamarine1 {
+.acquamarine1 ,.acquamarine2 ,.acquamarine3 ,.acquamarine4{
 	height: 300px;
-	width: 100px;
-	background-color: #20b2aa;
-	border: 1px dashed black;
-
+	padding: 20px;
+	
 }
 /* QUINTO BLOCCO */
+.all-list{
+	list-style-type: none;
+	
+}
+.title-list{
+	margin-bottom: 20px;
+	color: #7289d9;
+	font-size: 20px;
+}
+.content-list{
+	color: white;
+	padding: 10px;
+}
 
 /*/FOOTER */

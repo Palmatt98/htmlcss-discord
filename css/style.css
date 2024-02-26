@@ -11,6 +11,13 @@
 	justify-content: center;
 	flex-direction: reverse;
 }
+a{
+	color: inherit;
+	text-decoration: none;
+}
+body{
+	font-family: Arial, Helvetica, sans-serif;
+}
 .first-logo{
 	height: 40px;
 	width: 20%;
@@ -22,7 +29,8 @@
 	list-style-type: none;
 	display: flex;
 	justify-content: space-between;
-	text-decoration: none;
+	
+	color: white;
 
 	
 }
@@ -36,7 +44,7 @@
 }
 .login {
 	height: 40px;
-	width: 20%;
+	width: 25%;
 	background-color: #255ee9 ;
 	text-align: end;
 	display: flex;
@@ -45,12 +53,12 @@
 	
 }
 .content-accedi{
-	   padding: 5%;
-		width: 25%;
-		background-color: white;
-		border-radius: 45%;
-   	border: 0;
-   	
+	padding: 10px;
+	width: 25%;
+	background-color: white;
+	border-radius: 20px;
+   border: 0;
+   
 		
 
 }
@@ -62,7 +70,7 @@
 .parte-blue{
 	height: 400px;
 	background-image: url(../img/img/jumbo.png);
-	background-size: 100%;
+	background-size: cover;
 	width: 100%;
 	display: flex;
 	justify-content: center;
@@ -84,6 +92,7 @@
 .text-purple{
 	color: white;
 	margin-top: 15px;
+	line-height: 1.4;
 
 }
 .btn{
@@ -91,8 +100,18 @@
 	padding: 20px;
 	margin: 25px;
 	border: 0;
-	
-	
+
+}
+.btn1{
+	border-radius: 20px;
+	background-color: white;
+	padding: 10px;
+}
+.btn2{
+	border-radius: 20px;
+	background-color: black;
+	padding: 10px;
+	color: white;
 }
 /* /PRIMO BLOCCO */
 
@@ -111,7 +130,7 @@
 }
 
 .item-text{
-	font-size: 50px;
+	font-size: 40px;
 }
 
 .item-text2{
@@ -205,8 +224,9 @@
 
 
 .title-green{
-	font-size: 50px;
+	font-size: 40px;
 	text-align: center;
+	margin-top: 30px;
 }
 .img-grey{
 	width: 800px;
@@ -223,17 +243,19 @@ background-size: 100%;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	
-
 }
 .content-stars{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin: 20px;
+	margin-top: 20px;
 	padding: 20px;
-	font-size: 30px;
+	font-size: 20px;
 }
-
+.btn-foot{
+	display: flex;
+	align-items: center;
+}
 
 /* /QUARTO BLOCCO */
 /* -/MAIN */
@@ -267,9 +289,9 @@ background-size: 100%;
 	color: white;
 }
 .logo-social-network{
-	height: 10px;
+	height: 20px;
 	
-	color: white;
+
 }
 
 .acquamarine1 ,.acquamarine2 ,.acquamarine3 ,.acquamarine4{
